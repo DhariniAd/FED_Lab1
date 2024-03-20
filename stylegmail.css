@@ -1,0 +1,50 @@
+body {
+    background-image: url('https://wallpapers.com/images/hd/gmail-blurred-colors-7g89u76d4aojqqw9.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .form-container {
+    margin: 100px auto;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="contact"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="contact"]:focus {
+    background-color: rgba(70, 130, 180, 0.35);
+  }
+  
+  .buttons {
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  h1 {
+    font-size: 24px; /* Adjust the font size as needed */
+  }
+  
